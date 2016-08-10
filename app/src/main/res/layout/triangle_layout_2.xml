@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="4 DIGIT ANALYZER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorFire"/>
+    <TextView
+        android:id="@+id/tvI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:text="i"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:id="@+id/tvJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_toRightOf="@id/tvI"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:text="j"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_toRightOf="@id/tvJ"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:text="k"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_toRightOf="@id/tvK"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:text="l"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:id="@+id/tvM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvI"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:text="m"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvI"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_toRightOf="@id/tvM"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:text="n"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:id="@+id/tvO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvM"
+        android:layout_toRightOf="@id/tvM"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp"
+        android:text="o"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+
+        />
+    <TextView
+        android:id="@+id/tvP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvO"
+        android:layout_toLeftOf="@id/tvO"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+
+        android:text="p"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tvQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvO"
+        android:layout_toEndOf="@id/tvO"
+        android:layout_toRightOf="@id/tvO"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+
+        android:text="q"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tvR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvP"
+        android:layout_toEndOf="@id/tvP"
+        android:layout_toLeftOf="@id/tvQ"
+        android:layout_toRightOf="@id/tvP"
+        android:layout_toStartOf="@id/tvQ"
+        android:text="r"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tvU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toLeftOf="@id/tvS"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+
+        android:text="u"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toLeftOf="@id/tvT"
+        android:paddingEnd="15dp"
+
+        android:paddingStart="15dp"
+        android:text="s"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toLeftOf="@id/tvO"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="t"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toRightOf="@id/tvO"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="v"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toRightOf="@id/tvV"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="w"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvM"
+        android:layout_toRightOf="@id/tvW"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="x"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp"
+        />
+
+
+
+</RelativeLayout>

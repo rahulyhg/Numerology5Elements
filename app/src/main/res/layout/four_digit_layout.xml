@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tvEnter4digit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
+        android:text="Enter 4 digit:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvEnter4digit"
+        android:background="@drawable/text_rectangular"
+        android:ems="1"
+        android:inputType="number"
+        android:paddingLeft="2dp"
+        android:paddingStart="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@id/etFirst"
+        android:layout_alignTop="@id/etFirst"
+        android:layout_toRightOf="@id/etFirst"/>
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/space1"
+        android:background="@drawable/text_rectangular"
+        android:ems="1"
+        android:inputType="number"
+        android:paddingLeft="2dp"
+        android:paddingStart="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@id/etSecond"
+        android:layout_alignTop="@id/etSecond"
+        android:layout_toRightOf="@id/etSecond"/>
+    <EditText
+        android:id="@+id/etThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/space2"
+        android:background="@drawable/text_rectangular"
+        android:ems="1"
+        android:inputType="number"
+        android:paddingLeft="2dp"
+        android:paddingStart="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@id/etThird"
+        android:layout_alignTop="@id/etThird"
+        android:layout_toRightOf="@id/etThird"/>
+    <EditText
+        android:id="@+id/etFourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/space3"
+        android:background="@drawable/text_rectangular"
+        android:ems="1"
+        android:inputType="number"
+        android:paddingLeft="2dp"
+        android:paddingStart="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFirst"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Calculate"/>
+    <ScrollView
+        android:id="@+id/scrlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible">
+        <include
+            layout="@layout/triangle_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </ScrollView>
+
+</RelativeLayout>

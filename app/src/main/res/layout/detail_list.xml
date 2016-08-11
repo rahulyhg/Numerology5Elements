@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#BCBF0F"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgicon"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:src="@drawable/man"/>
+    <TextView
+        android:id="@+id/tvRootNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgicon"
+        android:text="root"/>
+    <Space
+        android:id="@+id/space"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/tvRootNumber"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"/>
+    <TextView
+        android:id="@+id/tvCustName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/space"
+        android:text="customer name"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tvCustDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRootNumber"
+        android:layout_toRightOf="@id/imgicon"
+        android:text="customer dob"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

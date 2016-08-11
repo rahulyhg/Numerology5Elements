@@ -31,10 +31,12 @@
         android:layout_toRightOf="@+id/tvEnter4digit"
         android:background="@drawable/text_rectangular"
         android:ems="1"
-        android:inputType="number"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
         android:paddingLeft="2dp"
         android:paddingStart="2dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
+
         />
 
     <Space
@@ -53,7 +55,8 @@
         android:layout_toRightOf="@+id/space1"
         android:background="@drawable/text_rectangular"
         android:ems="1"
-        android:inputType="number"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
         android:paddingLeft="2dp"
         android:paddingStart="2dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
@@ -73,7 +76,8 @@
         android:layout_toRightOf="@+id/space2"
         android:background="@drawable/text_rectangular"
         android:ems="1"
-        android:inputType="number"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
         android:paddingLeft="2dp"
         android:paddingStart="2dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
@@ -92,7 +96,8 @@
         android:layout_toRightOf="@+id/space3"
         android:background="@drawable/text_rectangular"
         android:ems="1"
-        android:inputType="number"
+        android:inputType="numberDecimal"
+        android:maxLength="1"
         android:paddingLeft="2dp"
         android:paddingStart="2dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>

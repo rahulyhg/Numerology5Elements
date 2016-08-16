@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Numerology 5 Elements</string>
+    <string name="app_name">5 Elements of Numbers</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -19,7 +19,38 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_main2">Numerology Formula</string>
+    <string name="title_activity_main2">5 Elements of Numbers</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="userEmail">android.studio@android.com</string>
+
+
+      <string name="root_number_1">A master of wisdom, an a born leader who like to takes charge.
+    It is an intellectual, independent and masculine number. Person has the flair for acquiring wisdom.</string>
+    <string name="root_number_2">Person is skillful and has a pleasant personality.
+    It is a feminin number</string>
+    <string name="root_number_3">Person has an active, warm, affectionate, and forward-looking personality.
+    At times, they can exhibit a "happy-go-lucky" attitude. Person has a clear, focused mind and
+    usually knows what he/she wants. They can be expressive, joyful, compassionate, and charismatic.</string>
+
+    <string name="root_number_4">Person is a learned individual who is artistic and usually excels in examinations.
+    They normally have high aspirations, and have a passion for lifelong learning. They are usually solid
+    like a rock and can be stubborn at times</string>
+    <string name="root_number_5">Person has a very strong character and is usually born with strong leadership traits.
+        This person is charismatic and usually in a position above many. They have a strong instinct for things
+        (intuitive) and have a hardworking nature, will usually achieve success in later part of life
+    </string>
+    <string name="root_number_6">Person is a survival who controls wealth and prosperity well. They tend to have
+        good manners and are generally, loyal, loving, charming, creative, and have expensive taste. They usually
+        do well in careers such as educaion, artistic works, and religion, and can be a popular figure in society.
+        They are also a charismatic, caring, thoughtful and homely person.
+
+    </string>
+    <string name="root_number_7">Person is very skillful and detail-oriented when handling matters.
+    They seldom forget those who had helped them before. A person is full of passion and love, charisma,
+    charm, intelligence and appreciates gratitude. At thimes, their passion for love and romance
+    may be on a high side. They tend to be more spiritual, to have a philosophical nature, and
+    like to give "words of wisdom" to others.</string>
+    <string name="root_number_8">Person is usually quiet, conservative and passive with a lively,
+    enduring and perseverance nature</string>
+    <string name="root_number_9">Person is usually optimistic, enthusiastic, and open-minded.</string>
 </resources>

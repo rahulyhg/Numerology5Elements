@@ -84,20 +84,19 @@ public class ShowNumbers {
                     txtView = (TextView) view.findViewById(R.id.tvI);
 
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
+
                     setbackground = true;
                     break;
                 case "J":
                     txtView = (TextView) view.findViewById(R.id.tvJ);
 
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
+
                     setbackground = true;
                     break;
                 case "K":
                     txtView = (TextView) view.findViewById(R.id.tvK);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "L":
@@ -110,37 +109,31 @@ public class ShowNumbers {
                 case "M":
                     txtView = (TextView) view.findViewById(R.id.tvM);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "N":
                     txtView = (TextView) view.findViewById(R.id.tvN);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "O":
                     txtView = (TextView) view.findViewById(R.id.tvO);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "P":
                     txtView = (TextView) view.findViewById(R.id.tvP);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "Q":
                     txtView = (TextView) view.findViewById(R.id.tvQ);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "R":
                     txtView = (TextView) view.findViewById(R.id.tvR);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "S":
@@ -158,32 +151,32 @@ public class ShowNumbers {
                 case "U":
                     txtView = (TextView) view.findViewById(R.id.tvU);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "V":
                     txtView = (TextView) view.findViewById(R.id.tvV);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "W":
                     txtView = (TextView) view.findViewById(R.id.tvW);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
                 case "X":
                     txtView = (TextView) view.findViewById(R.id.tvX);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
                     setbackground = true;
                     break;
 
             }
-            if (setbackground)
+           // we do not put color on this version
+            /*if (setbackground)
+            {
+            txtView.setTextColor(Color.WHITE);
                 chooseColor(value.toString(),txtView);
-
+                }
+*/
 
         }
 

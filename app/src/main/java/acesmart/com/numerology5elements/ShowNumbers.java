@@ -1,6 +1,5 @@
 package acesmart.com.numerology5elements;
 
-import android.graphics.Color;
 import android.view.View;
 import android.widget.TextView;
 
@@ -103,7 +102,7 @@ public class ShowNumbers {
                     txtView = (TextView) view.findViewById(R.id.tvL);
 
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
+
                     setbackground = true;
                     break;
                 case "M":
@@ -139,13 +138,13 @@ public class ShowNumbers {
                 case "S":
                     txtView = (TextView) view.findViewById(R.id.tvS);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
+
                     setbackground = true;
                     break;
                 case "T":
                     txtView = (TextView) view.findViewById(R.id.tvT);
                     txtView.setText(value.toString());
-                    txtView.setTextColor(Color.WHITE);
+
                     setbackground = true;
                     break;
                 case "U":
@@ -168,7 +167,31 @@ public class ShowNumbers {
                     txtView.setText(value.toString());
                     setbackground = true;
                     break;
-
+                case "H1":
+                    txtView = (TextView) view.findViewById(R.id.tvH1);
+                    txtView.setText(value.toString());
+                    setbackground = true;
+                    break;
+                case "H2":
+                    txtView = (TextView) view.findViewById(R.id.tvH2);
+                    txtView.setText(value.toString());
+                    setbackground = true;
+                    break;
+                case "H3":
+                    txtView = (TextView) view.findViewById(R.id.tvH3);
+                    txtView.setText(value.toString());
+                    setbackground = true;
+                    break;
+                case "H4":
+                    txtView = (TextView) view.findViewById(R.id.tvH4);
+                    txtView.setText(value.toString());
+                    setbackground = true;
+                    break;
+                case "H5":
+                    txtView = (TextView) view.findViewById(R.id.tvH5);
+                    txtView.setText(value.toString());
+                    setbackground = true;
+                    break;
             }
            // we do not put color on this version
             /*if (setbackground)

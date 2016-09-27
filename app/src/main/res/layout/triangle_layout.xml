@@ -9,332 +9,563 @@
         android:layout_height="wrap_content"
         android:text="B I R T H    C H A R T"
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/titleBirthChart"
         android:textSize="20dp"/>
-    <TextView
-        android:id="@+id/tvA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="20dp"
-        android:paddingBottom="10dp"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="a"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-
-        />
-    <TextView
-        android:id="@+id/tvB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvA"
-        android:layout_toRightOf="@id/tvA"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="b"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvB"
-        android:layout_toRightOf="@id/tvB"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="c"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvC"
-        android:layout_toEndOf="@id/tvC"
-        android:layout_toRightOf="@id/tvC"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="d"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvD"
-        android:layout_toEndOf="@id/tvD"
-        android:layout_toRightOf="@id/tvD"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="e"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvE"
-        android:layout_toEndOf="@id/tvE"
-        android:layout_toRightOf="@id/tvE"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="f"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvG"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvF"
-        android:layout_toEndOf="@id/tvF"
-        android:layout_toRightOf="@id/tvF"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="g"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvH"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/tvG"
-        android:layout_toEndOf="@id/tvG"
-        android:layout_toRightOf="@id/tvG"
-        android:paddingEnd="15dp"
-        android:paddingStart="15dp"
-        android:text="h"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvA"
-        android:layout_toEndOf="@id/tvA"
-        android:layout_toRightOf="@id/tvA"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="i"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-
-        />
-
-    <TextView
-        android:id="@+id/tvJ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvA"
-        android:layout_toEndOf="@id/tvC"
-        android:layout_toRightOf="@id/tvC"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="j"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvA"
-        android:layout_toEndOf="@id/tvE"
-        android:layout_toRightOf="@id/tvE"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="k"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvL"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvA"
-        android:layout_toEndOf="@id/tvG"
-        android:layout_toRightOf="@id/tvG"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="l"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-
-        />
-    <TextView
-        android:id="@+id/tvM"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvI"
-        android:layout_toEndOf="@id/tvI"
-        android:layout_toLeftOf="@id/tvJ"
-        android:layout_toRightOf="@id/tvI"
-        android:layout_toStartOf="@id/tvJ"
-        android:text="m"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-
-        />
-    <TextView
-        android:id="@+id/tvN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvI"
-        android:layout_toEndOf="@id/tvK"
-        android:layout_toLeftOf="@id/tvL"
-        android:layout_toRightOf="@id/tvK"
-        android:layout_toStartOf="@id/tvL"
-        android:text="n"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-
-        />
-    <TextView
-        android:id="@+id/tvO"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvM"
-        android:layout_toEndOf="@id/tvJ"
-        android:layout_toLeftOf="@id/tvK"
-        android:layout_toRightOf="@id/tvJ"
-        android:layout_toStartOf="@id/tvK"
-        android:text="o"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
 
 
-        />
-    <TextView
-        android:id="@+id/tvP"
+    <TableLayout
+        android:id="@+id/tableBirthChart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvO"
-        android:layout_toLeftOf="@id/tvO"
-        android:layout_toStartOf="@id/tvO"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleBirthChart">
 
-        android:text="p"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
 
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvQ"
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="g"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="h"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row_hidden1">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvH1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H1"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorFire" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row_hidden2"
+            android:visibility="visible">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="H2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvH2"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorFire" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="H3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvH3"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorFire" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="H5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvH5"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorFire" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row_hidden3">
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="H4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvH4"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorFire" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:id="@+id/tvT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tvO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="U"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvU"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="P"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvP"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Q"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:id="@+id/tvQ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="X"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tvX"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ToggleButton
+        android:textOff="@string/show_hidden_number"
+        android:textOn="@string/hide_hidden_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvO"
-        android:layout_toEndOf="@id/tvO"
-        android:layout_toRightOf="@id/tvO"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-
-        android:text="q"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvR"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvP"
-        android:layout_toEndOf="@id/tvP"
-        android:layout_toLeftOf="@id/tvQ"
-        android:layout_toRightOf="@id/tvP"
-        android:layout_toStartOf="@id/tvQ"
-        android:text="r"
-        android:textAlignment="center"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-
-        android:textSize="15sp" />
-    <TextView
-        android:id="@+id/tvT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toLeftOf="@id/tvJ"
-        android:paddingEnd="10dp"
-
-        android:paddingStart="10dp"
-        android:text="t"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toLeftOf="@id/tvT"
-        android:paddingEnd="10dp"
-
-        android:paddingStart="10dp"
-        android:text="s"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-
-    <TextView
-        android:id="@+id/tvU"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toLeftOf="@id/tvS"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-
-        android:text="u"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-
-
-    <TextView
-        android:id="@+id/tvV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toRightOf="@id/tvK"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="v"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toRightOf="@id/tvV"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="w"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
-    <TextView
-        android:id="@+id/tvX"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvM"
-        android:layout_toRightOf="@id/tvW"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:text="x"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="15sp"
-        />
+        android:id="@+id/toggleButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tableBirthChart"
+        android:checked="true" />
 
 </RelativeLayout>

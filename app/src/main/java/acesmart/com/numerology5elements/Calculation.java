@@ -35,14 +35,15 @@ public class Calculation {
         objNumber.changeValue("L", fourth);
 
         formulaBasic();
+        formulaHidden();
     }
 
 
     public Map<String, Integer> getMap(){
         return objNumber.numberObject;
 
-
     }
+
     private void parsingDate() {
         Integer tmp, tmp1;
         tmp = day /10;
@@ -99,6 +100,7 @@ public class Calculation {
             objNumber.changeValue("L",addTwoNumbers(objNumber.getValue("G"),objNumber.getValue("H")));
 
         formulaBasic();
+        formulaHidden();
 
     }
 
@@ -121,6 +123,18 @@ public class Calculation {
         objNumber.changeValue("W",addTwoNumbers(objNumber.getValue("L"),objNumber.getValue("N")));
         objNumber.changeValue("X",addTwoNumbers(objNumber.getValue("V"),objNumber.getValue("W")));
 
+    }
+
+    private void formulaHidden(){
+        objNumber.changeValue("H1",addTwoNumbers(objNumber.getValue("J"),objNumber.getValue("K")));
+        objNumber.changeValue("H2",addTwoNumbers(objNumber.getValue("I"),objNumber.getValue("J")));
+        objNumber.changeValue("H2",addTwoNumbers(objNumber.getValue("H2"),objNumber.getValue("M")));
+        objNumber.changeValue("H3",addTwoNumbers(objNumber.getValue("K"),objNumber.getValue("L")));
+        objNumber.changeValue("H3",addTwoNumbers(objNumber.getValue("H3"),objNumber.getValue("N")));
+        objNumber.changeValue("H4",addTwoNumbers(objNumber.getValue("M"),objNumber.getValue("N")));
+        objNumber.changeValue("H4",addTwoNumbers(objNumber.getValue("H4"),objNumber.getValue("O")));
+        objNumber.changeValue("H5",addTwoNumbers(objNumber.getValue("I"),objNumber.getValue("L")));
+        objNumber.changeValue("H5",addTwoNumbers(objNumber.getValue("H5"),objNumber.getValue("O")));
     }
 
 }

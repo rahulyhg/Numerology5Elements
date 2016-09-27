@@ -34,6 +34,11 @@ public class NumberObject {
         numberObject.put("V", -1);
         numberObject.put("W", -1);
         numberObject.put("X", -1);
+        numberObject.put("H1", -1);
+        numberObject.put("H2", -1);
+        numberObject.put("H3", -1);
+        numberObject.put("H4", -1);
+        numberObject.put("H5", -1);
     }
 
     public void changeValue(String key, Integer value){

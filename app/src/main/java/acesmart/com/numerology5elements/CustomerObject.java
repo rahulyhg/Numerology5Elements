@@ -13,6 +13,7 @@ public final class CustomerObject {
 
     public CustomerObject(){
         customerObj.put("custname","");
+        customerObj.put("custid","");
         customerObj.put("custdob","");
         customerObj.put("custroot","");
         customerObj.put("gender","");

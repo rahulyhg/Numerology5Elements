@@ -568,4 +568,20 @@
         android:layout_below="@id/tableBirthChart"
         android:checked="true" />
 
+    <TextView
+        android:id="@+id/tvSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toggleButton"
+        android:text="Slide to change year"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <SeekBar
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="1"
+        android:layout_below="@id/tvSlider"
+        android:id="@+id/seekBar" />
+
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package acesmart.com.numerology5elements;
 
+import android.graphics.Color;
 import android.view.View;
 import android.widget.TextView;
 
@@ -194,12 +195,11 @@ public class ShowNumbers {
                     break;
             }
            // we do not put color on this version
-            /*if (setbackground)
+            if (setbackground)
             {
             txtView.setTextColor(Color.WHITE);
                 chooseColor(value.toString(),txtView);
                 }
-*/
 
         }
 

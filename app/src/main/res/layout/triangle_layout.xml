@@ -20,51 +20,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:stretchColumns="*"
         android:layout_below="@id/titleBirthChart">
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:gravity="center_horizontal">
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-
+            >
 
             <TextView
                 android:id="@+id/tvA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="a"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:id="@+id/tvB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="b"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
+
+
+
 
             <TextView
                 android:id="@+id/tvC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="c"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
+
 
             <TextView
                 android:id="@+id/tvD"
@@ -72,204 +66,154 @@
                 android:layout_height="wrap_content"
                 android:text="d"
 
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
+
+            <TextView />
 
             <TextView
                 android:id="@+id/tvE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="e"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:id="@+id/tvF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="f"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:id="@+id/tvG"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="g"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:id="@+id/tvH"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="h"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/row_hidden1">
+            >
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tvI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="I"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tvJ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="J"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
-            <TextView
-                android:id="@+id/tvH1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="H1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
+            <TextView />
 
             <TextView
                 android:id="@+id/tvK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="K"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
+
+
 
             <TextView
                 android:id="@+id/tvL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="L"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
         </TableRow>
 
         <TableRow
+            android:id="@+id/row_hidden1">
+
+            <TextView
+                android:layout_span="4"/>
+            <TextView
+                android:id="@+id/tvH1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H1"
+                android:layout_span="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_span="4"/>
+        </TableRow>
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/row_hidden2"
             android:visibility="visible">
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:text="H2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvH2"
+                android:layout_span="3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="H3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvH3"
+                android:layout_span="3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:text="H5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvH5"
+                android:layout_span="3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
@@ -280,53 +224,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
             <TextView
                 android:text="M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvM"
+                android:layout_span="4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+            <TextView />
             <TextView
                 android:text="N"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvN"
+                android:layout_span="4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
@@ -336,122 +248,74 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/row_hidden3">
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_span="4"/>
             <TextView
                 android:text="H4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvH4"
+                android:layout_span="1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
+            <TextView
+                android:layout_span="4"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-
-
-            <TextView
+      <TextView
                 android:id="@+id/tvT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="T"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tvS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="S"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
 
             <TextView
                 android:id="@+id/tvO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="O"
+                android:layout_span="1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+
+
+
+
 
             <TextView
                 android:id="@+id/tvV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="V"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/tvW"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="W"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
 
@@ -462,65 +326,40 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
+
+
 
             <TextView
                 android:text="U"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvU"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
 
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:text="P"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvP"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
+
+            <TextView />
 
             <TextView
                 android:text="Q"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="right"
+
                 android:id="@+id/tvQ"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
+
 
             <TextView
                 android:text="X"
@@ -528,6 +367,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:id="@+id/tvX"
+                android:layout_span="2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
         </TableRow>
@@ -536,38 +376,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content" />
-
+            <TextView
+                android:layout_span="4"/>
             <TextView
                 android:text="R"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvR"
+                android:layout_span="1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
+            <TextView
+                android:layout_span="4"/>
         </TableRow>
 
     </TableLayout>

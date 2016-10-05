@@ -139,7 +139,6 @@ public class ShowNumbers {
                 case "S":
                     txtView = (TextView) view.findViewById(R.id.tvS);
                     txtView.setText(value.toString());
-
                     setbackground = true;
                     break;
                 case "T":

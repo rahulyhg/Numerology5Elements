@@ -1,6 +1,7 @@
 package acesmart.com.numerology5elements;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -125,7 +126,10 @@ public class BirthChart extends AppCompatActivity {
                         CustomerDB.CustomerEntry.COLUMN_NAME_CUST_ID + " = '" + customerID + "'";
                 try{
                     db.execSQL(qry);
+                    Intent intent = getIntent();
+                    setResult(RESULT_OK, intent);
                     Toast.makeText(getApplicationContext(), "Succesfully DELETE", Toast.LENGTH_LONG).show();
+                    finish();
 
                 } catch (SQLException e){
                     Toast.makeText(getApplicationContext(), "FAIL to Delete", Toast.LENGTH_LONG).show();

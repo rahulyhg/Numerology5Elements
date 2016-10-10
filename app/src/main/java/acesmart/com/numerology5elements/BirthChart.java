@@ -1,7 +1,6 @@
 package acesmart.com.numerology5elements;
 
 import android.content.DialogInterface;
-import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -120,12 +119,12 @@ public class BirthChart extends AppCompatActivity {
         dlgAlert.setPositiveButton("DELETE", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                NumerologyDBHelper numerologyDBHelper = new NumerologyDBHelper(getApplicationContext(), null, null, 0);
-                SQLiteDatabase db = numerologyDBHelper.getReadableDatabase();
+                NumerologyDBHelper numerologyDBHelper = new NumerologyDBHelper(getBaseContext(), null, null, 0);
+                SQLiteDatabase db = numerologyDBHelper.getWritableDatabase();
                 String qry = "DELETE FROM " + CustomerDB.CustomerEntry.TABLE_NAME + " where " +
-                        CustomerDB.CustomerEntry.COLUMN_NAME_CUST_ID + " = " + customerID;
+                        CustomerDB.CustomerEntry.COLUMN_NAME_CUST_ID + " = '" + customerID + "'";
                 try{
-                    Cursor c = db.rawQuery(qry, null);
+                    db.execSQL(qry);
                     Toast.makeText(getApplicationContext(), "Succesfully DELETE", Toast.LENGTH_LONG).show();
 
                 } catch (SQLException e){

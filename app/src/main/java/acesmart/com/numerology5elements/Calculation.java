@@ -115,8 +115,8 @@ public class Calculation {
 
         objNumber.changeValue("R",addTwoNumbers(objNumber.getValue("P"),objNumber.getValue("Q")));
 
-        objNumber.changeValue("S",addTwoNumbers(objNumber.getValue("I"),objNumber.getValue("M")));
-        objNumber.changeValue("T",addTwoNumbers(objNumber.getValue("J"),objNumber.getValue("M")));
+        objNumber.changeValue("S",addTwoNumbers(objNumber.getValue("J"),objNumber.getValue("M")));
+        objNumber.changeValue("T",addTwoNumbers(objNumber.getValue("I"),objNumber.getValue("M")));
         objNumber.changeValue("U",addTwoNumbers(objNumber.getValue("S"),objNumber.getValue("T")));
 
         objNumber.changeValue("V",addTwoNumbers(objNumber.getValue("K"),objNumber.getValue("N")));

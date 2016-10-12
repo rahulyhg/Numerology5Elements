@@ -143,6 +143,14 @@
 
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textAlignment="center" />
+            <TextView
+                android:id="@+id/tvH1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H1"
+                android:layout_column="7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAlignment="center" />
 
 
 
@@ -167,20 +175,6 @@
 
         </TableRow>
 
-        <TableRow
-            android:id="@+id/row_hidden1">
-
-
-            <TextView
-                android:id="@+id/tvH1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="H1"
-                android:layout_column="7"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textAlignment="center" />
-
-        </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"

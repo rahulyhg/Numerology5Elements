@@ -8,14 +8,13 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="6dp">
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp">
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
             android:id="@+id/ll_layout">
 
             <ImageView
@@ -36,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:id="@+id/tvCustID"/>
 
                 <TextView
@@ -45,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/tvCustName"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_weight="1" />
+                    android:layout_weight="0" />
 
                 <TextView
                     android:text="CustDateOfBirth"
@@ -53,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/tvCustDOB"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_weight="1" />
+                    android:layout_weight="0" />
 
                 <TextView
                     android:text="Root Number :"
@@ -61,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/tvRootNumber"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_weight="1" />
+                    android:layout_weight="0" />
             </LinearLayout>
 
         </LinearLayout>

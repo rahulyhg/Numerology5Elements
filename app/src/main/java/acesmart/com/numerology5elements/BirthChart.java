@@ -65,18 +65,18 @@ public class BirthChart extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-//                TextView tvH1 = (TextView) ll_birtchart.findViewById(R.id.tvH1);
-                TableRow tableRow = (TableRow) ll_birtchart.findViewById(R.id.row_hidden1);
+                TextView tvH1 = (TextView) ll_birtchart.findViewById(R.id.tvH1);
+//                TableRow tableRow = (TableRow) ll_birtchart.findViewById(R.id.row_hidden1);
                 TableRow tableRow1 = (TableRow) ll_birtchart.findViewById(R.id.row_hidden2);
                 TableRow tableRow2 = (TableRow) ll_birtchart.findViewById(R.id.row_hidden3);
                 if (tglbutton.isChecked()) {
-//                            tvH1.setVisibility(View.VISIBLE);
-                    tableRow.setVisibility(View.VISIBLE);
+                            tvH1.setVisibility(View.VISIBLE);
+//                    tableRow.setVisibility(View.VISIBLE);
                     tableRow1.setVisibility(View.VISIBLE);
                     tableRow2.setVisibility(View.VISIBLE);
                 } else {
-//                            tvH1.setVisibility(View.INVISIBLE);
-                    tableRow.setVisibility(View.GONE);
+                            tvH1.setVisibility(View.INVISIBLE);
+//                    tableRow.setVisibility(View.GONE);
                     tableRow1.setVisibility(View.GONE);
                     tableRow2.setVisibility(View.GONE);
 

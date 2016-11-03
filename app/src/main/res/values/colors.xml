@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#0B24DE</color>
+    <color name="yellow">#EDF50A</color>
+    <color name="colorMetal">#C7D6D6</color>
+    <color name="colorMetal01">#8DD6D6</color>
+    <color name="colorWater">#72B8F2</color>
+    <color name="colorWater01">#4F81AB</color>
+    <color name="colorFire">#f22b11</color>
+    <color name="colorFire01">#B01F0C</color>
+    <color name="colorWood">#009933</color>
+    <color name="colorWood01">#035920</color>
+    <color name="colorEarth">#613107</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#ff5252</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>

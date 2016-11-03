@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/numbers"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="acesmart.com.numerology5elements.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewGroup">
+
+        <TextView
+            android:id="@+id/titleNumerology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Five Elements of Numbers"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:paddingBottom="20dp"
+            android:onClick="openFormulaPage"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birthchart"
+            android:id="@+id/buttonBirthchart"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="openFormulaPage"
+            android:background="@drawable/button_shape"
+            style="@style/AlertDialog.AppCompat"
+
+                />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Plot"
+            android:id="@+id/buttonQuickPlot"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/colorAccent"
+            android:onClick="openFormulaPage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List People"
+            android:id="@+id/buttonListPeople"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/button_shape"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWood"
+            android:onClick="openFormulaPage"/>
+        <TextView
+            android:text="powered by ACESMART"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:textColor="@color/accent"
+            android:textStyle="italic"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:gravity="bottom"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

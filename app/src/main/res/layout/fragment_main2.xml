@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="acesmart.com.numerology5elements.Main2Activity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrlView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:gravity="fill_vertical"
+                android:id="@+id/tvName"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etName"
+                android:textColor="#253FCF"
+                android:enabled="true"
+                android:inputType="text|textCapCharacters"
+                android:gravity="start"
+                android:hint="Enter client name"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:maxLines="1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etGender"
+                android:text="Gender:"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:id="@+id/radioButtonMale"
+                    android:paddingEnd="60dp"
+                    android:paddingRight="60dp"
+                    android:checked="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:onClick="radioButtonSelected">
+
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:id="@+id/radioButtonFemale"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_toEndOf="@+id/radioButtonMale"
+                    android:layout_toRightOf="@id/radioButtonMale"
+                    android:onClick="radioButtonSelected"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/enterdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of birth"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+
+            <TextView
+                android:id="@+id/dateOfBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DD-MM-YYYY"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:gravity="start"
+                android:textAlignment="textStart"
+                style="@android:style/Widget.Holo.Spinner"
+                android:onClick="showDatePickerDialog"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEnterTime"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Time of birth (Optional)" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00:00"
+                android:ems="10"
+                android:id="@+id/tvTime"
+                style="@android:style/Widget.Holo.Spinner"
+                android:onClick="showTimePickerDialog"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnAnalyze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:text="Analyze"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:elevation="0dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnSave"
+                    android:layout_toEndOf="@+id/btnAnalyze"
+                    android:layout_toRightOf="@+id/btnAnalyze"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Analyze and Save"/>
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_fragment">
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/triangle_layout"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
